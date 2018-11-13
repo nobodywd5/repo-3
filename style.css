@@ -1,0 +1,36 @@
+html,
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Raleway", sans-serif;
+   
+}
+
+
+#head {
+	padding: 20px;
+    left: -10%;
+    
+    transform: translateX(-50%);
+}
+
+#head::after {
+
+	content: " ";
+	position: absolute;
+	border: 1px solid lightgray;
+	margin-top: 15px;
+	display: block;
+	width: 10em;
+	height: 2px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+
+
+.container-fluid {
+	padding-top: 3%;
+    margin-left: -10%;
+	transform: translateX(-50%, 0);
+}
